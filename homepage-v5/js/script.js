@@ -53,14 +53,14 @@ var linkMenu = [
   ["BakaBT",                   "http://bakabt.me/",""],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "",""],
-  ["Facebook",                 "",""],
-  ["Reddit",                   "",""],
-  ["Twitch",                   "",""],
-  ["DeviantArt",               "",""],
+  ["YouTube",                  "https://youtube.com/",""],
+  ["VK",                       "https://vk.com/",""],
+  ["Reddit",                   "https://www.reddit.com",""],
+  ["Twitch",                   "https://twitch.tv/",""],
+  ["DeviantArt",               "https://deviantart.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
-  ["/a/ Anime & Manga",        "",""],
+  ["/a/ Anime & Manga",        "4chan.org/a",""],
   ["/g/ Technology",           "",""],
   ["/w/ Anime/Wallpapers",     "",""],
   ["/wg/ Wallpaper/General",   "",""],
