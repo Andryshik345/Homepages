@@ -60,29 +60,29 @@ var linkMenu = [
   ["DeviantArt",               "https://deviantart.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
-  ["/a/ Anime & Manga",        "4chan.org/a",""],
-  ["/g/ Technology",           "",""],
-  ["/w/ Anime/Wallpapers",     "",""],
-  ["/wg/ Wallpaper/General",   "",""],
+  ["/a/ Anime & Manga",        "https://4chan.org/a/",""],
+  ["/g/ Technology",           "https://4chan.org/g/",""],
+  ["/w/ Anime/Wallpapers",     "https://4chan.org/w/",""],
+  ["/wg/ Wallpaper/General",   "https://4chan.org/wg/",""],
   
   [svgCode,                    "red",                                         "-HEAD-"], // Code Stuff
-  ["GitHub",                   "",""],
-  ["Gist",                     "",""],
-  ["JSFiddle",                 "",""],
-  ["Stack Overflow",           "",""],
+  ["GitHub",                   "https://github.com/",""],
+  ["Gist",                     "https://gist.github.com/",""],
+  ["JSFiddle",                 "https://jsfiddle.net/",""],
+  ["Stack Overflow",           "https://stackoverflow.com/",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
-  ["Steam",                    "",""],
-  ["Humble Bundle",            "",""],
-  ["GOG.com",                  "",""],
-  ["/r/gaming",                "",""],
+  ["Steam",                    "https://store.steampowered.com/",""],
+  ["Humble Bundle",            "https://humblebunlde.com/",""],
+  ["GOG.com",                  "https://gog.com/",""],
+  ["/r/gaming",                "https://www.reddit.com/r/gaming/",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
-  ["Gmail",                    "",""],
-  ["Amazon",                   "",""],
-  ["Dropbox",                  "",""],
-  ["Netflix",                  "",""],
-  ["Weather",                  "",""],
+  ["Gmail",                    "https://gmail.com",""],
+  ["Amazon",                   "https://amazon.com",""],
+  ["Dropbox",                  "https://dropbox.com",""],
+  ["Netflix",                  "https://netflix.com",""],
+  ["Weather",                  "https://weather.com",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
