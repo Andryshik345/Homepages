@@ -18,14 +18,15 @@ var cmdPrefix = "!"; //prefix for commands.
 var ssi = 1; //set default search provider. Use array index of the array below. (Starting with 0)
 // Format: [Keyword, Search URL (Search query replaces "{Q}"), "Input placeholder text"]
 var searchSources = [
-  ["bbt",      "http://bakabt.me/browse.php?q={Q}",                      "BakaBT"],
+//["bbt",      "http://bakabt.me/browse.php?q={Q}",                      "BakaBT"],
   ["g",        "https://www.google.com/#q={Q}",                          "google_logo"],
   ["im",       "https://www.google.com/search?tbm=isch&q={Q}",           "google_logo Images"],
   ["imdb",     "http://www.imdb.com/find?q={Q}",                         "IMDB"],
   ["nya",      "https://www.nyaa.si/?page=search&term={Q}",              "Nyaa Torrents"],
   ["ud",       "http://www.urbandictionary.com/define.php?term={Q}",     "Urban Dictionary"],
   ["wp",       "http://en.wikipedia.org/w/index.php?search={Q}",         "Wikipedia"],
-  ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"]
+  ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"],
+  ["shiki",    "https://shikimori.com/animes?search={Q}",                "Shikimori"]
 ];
 
 // Because I care about readability in my JS. kthx.
@@ -47,10 +48,13 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
-  ["AnimeNewsNetwork",         "https://www.animenewsnetwork.com/",""],
+//["AnimeNewsNetwork",         "https://www.animenewsnetwork.com/",""],
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
-  ["BakaBT",                   "http://bakabt.me/",""],
+//["BakaBT",                   "http://bakabt.me/",""],
+  ["Shikimori",                "https://shikimori.org/",""],
+  ["Danbooru",                 "http://danbooru.donmai.us/",""],
+  ["osu!Search",               "http://osusearch.com/"],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
   ["YouTube",                  "https://youtube.com/",""],
