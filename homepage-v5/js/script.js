@@ -26,7 +26,7 @@ var searchSources = [
   ["ud",       "http://www.urbandictionary.com/define.php?term={Q}",     "Urban Dictionary"],
   ["wp",       "http://en.wikipedia.org/w/index.php?search={Q}",         "Wikipedia"],
   ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"],
-  ["shiki",    "https://shikimori.com/animes?search={Q}",                "Shikimori"]
+  ["shiki",    "https://shikimori.org/animes?search={Q}",                "Shikimori"]
 ];
 
 // Because I care about readability in my JS. kthx.
@@ -62,6 +62,7 @@ var linkMenu = [
   ["Reddit",                   "https://www.reddit.com",""],
   ["Twitch",                   "https://twitch.tv/",""],
   ["DeviantArt",               "https://deviantart.com/",""],
+  ["Telegram",                 "https://web.telegram.org/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
   ["/a/ Anime & Manga",        "https://4chan.org/a/",""],
