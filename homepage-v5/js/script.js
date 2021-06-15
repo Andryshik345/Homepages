@@ -19,7 +19,7 @@ var ssi = 0; //set default search provider. Use array index of the array below. 
 // Format: [Keyword, Search URL (Search query replaces "{Q}"), "Input placeholder text"]
 var searchSources = [
 //["bbt",      "http://bakabt.me/browse.php?q={Q}",                      "BakaBT"],
-  ["g",        "https://www.google.com/#q={Q}",                          "google_logo"],
+  ["g",        "https://www.google.com/search?q={Q}",                    "google_logo"],
   ["im",       "https://www.google.com/search?tbm=isch&q={Q}",           "google_logo Images"],
   ["imdb",     "http://www.imdb.com/find?q={Q}",                         "IMDB"],
   ["nya",      "https://www.nyaa.si/?page=search&term={Q}",              "Nyaa Torrents"],
