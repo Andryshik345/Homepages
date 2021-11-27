@@ -52,6 +52,7 @@ var linkMenu = [
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
 //["BakaBT",                   "http://bakabt.me/",""],
+  ["AniList",                  "https://anilist.co/",""],
   ["Shikimori",                "https://shikimori.one/",""],
   ["Danbooru",                 "http://danbooru.donmai.us/",""],
   ["osu!Search",               "http://osusearch.com/"],
@@ -62,7 +63,7 @@ var linkMenu = [
   ["Reddit",                   "https://www.reddit.com",""],
   ["Twitch",                   "https://twitch.tv/",""],
   ["DeviantArt",               "https://deviantart.com/",""],
-  ["Telegram",                 "https://web.telegram.org/",""],
+  ["Twitter",                  "https://twitter.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
   ["/a/ Anime & Manga",        "https://4chan.org/a/",""],
