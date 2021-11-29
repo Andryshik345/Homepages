@@ -52,8 +52,8 @@ var linkMenu = [
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
 //["BakaBT",                   "http://bakabt.me/",""],
-  ["AniList",                  "https://anilist.co/",""],
   ["Shikimori",                "https://shikimori.one/",""],
+  ["AniList",                  "https://anilist.co/",""],
   ["Danbooru",                 "http://danbooru.donmai.us/",""],
   ["osu!Search",               "http://osusearch.com/"],
   
