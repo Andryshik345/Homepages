@@ -26,7 +26,7 @@ var searchSources = [
   ["ud",       "http://www.urbandictionary.com/define.php?term={Q}",     "Urban Dictionary"],
   ["wp",       "http://en.wikipedia.org/w/index.php?search={Q}",         "Wikipedia"],
   ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"],
-  ["shiki",    "https://shikimori.one/animes?search={Q}",                "Shikimori"]
+  ["shiki",    "https://shikimori.me/animes?search={Q}",                "Shikimori"]
 ];
 
 // Because I care about readability in my JS. kthx.
@@ -52,7 +52,7 @@ var linkMenu = [
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
 //["BakaBT",                   "http://bakabt.me/",""],
-  ["Shikimori",                "https://shikimori.one/",""],
+  ["Shikimori",                "https://shikimori.me/",""],
   ["AniList",                  "https://anilist.co/",""],
   ["Danbooru",                 "http://danbooru.donmai.us/",""],
   ["osu!Search",               "http://osusearch.com/"],
