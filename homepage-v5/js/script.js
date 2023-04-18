@@ -26,7 +26,8 @@ var searchSources = [
   ["ud",       "http://www.urbandictionary.com/define.php?term={Q}",     "Urban Dictionary"],
   ["wp",       "http://en.wikipedia.org/w/index.php?search={Q}",         "Wikipedia"],
   ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"],
-  ["shiki",    "https://shikimori.me/animes?search={Q}",                "Shikimori"]
+  ["shiki",    "https://shikimori.me/animes?search={Q}",                 "Shikimori"],
+  ["hltb",     "https://howlongtobeat.com/?q={Q}",                       "HowLongToBeat"]
 ];
 
 // Because I care about readability in my JS. kthx.
@@ -48,21 +49,18 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
-//["AnimeNewsNetwork",         "https://www.animenewsnetwork.com/",""],
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
-//["BakaBT",                   "http://bakabt.me/",""],
   ["Shikimori",                "https://shikimori.me/",""],
   ["AniList",                  "https://anilist.co/",""],
   ["Danbooru",                 "http://danbooru.donmai.us/",""],
-  ["osu!Search",               "http://osusearch.com/"],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
   ["YouTube",                  "https://youtube.com/",""],
   ["VK",                       "https://vk.com/",""],
   ["Reddit",                   "https://www.reddit.com",""],
   ["Twitch",                   "https://twitch.tv/",""],
-  ["DeviantArt",               "https://deviantart.com/",""],
+  ["Pixiv",                    "https://pixiv.net/",""],
   ["Twitter",                  "https://twitter.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
@@ -79,7 +77,7 @@ var linkMenu = [
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Gaming
   ["Steam",                    "https://store.steampowered.com/",""],
-  ["Humble Bundle",            "https://humblebunlde.com/",""],
+  ["HowLongToBeat",            "https://howlongtobeat.com/",""],
   ["GOG.com",                  "https://gog.com/",""],
   ["/r/gaming",                "https://www.reddit.com/r/gaming/",""],
   
@@ -88,7 +86,7 @@ var linkMenu = [
   ["Amazon",                   "https://amazon.com",""],
   ["Dropbox",                  "https://dropbox.com",""],
   ["Netflix",                  "https://netflix.com",""],
-  ["Weather",                  "https://weather.com",""],
+  ["Weather (Yandex)",         "https://yandex.ru/pogoda/",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
 
