@@ -26,7 +26,7 @@ var searchSources = [
   ["ud",       "http://www.urbandictionary.com/define.php?term={Q}",     "Urban Dictionary"],
   ["wp",       "http://en.wikipedia.org/w/index.php?search={Q}",         "Wikipedia"],
   ["yt",       "https://www.youtube.com/results?search_query={Q}",       "YouTube"],
-  ["shiki",    "https://shikimori.me/animes?search={Q}",                 "Shikimori"],
+  ["shiki",    "https://shikimori.one/animes?search={Q}",                 "Shikimori"],
   ["hltb",     "https://howlongtobeat.com/?q={Q}",                       "HowLongToBeat"]
 ];
 
@@ -51,7 +51,7 @@ var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Anime
   ["MyAnimeList",              "https://myanimelist.net/",""],
   ["Nyaa Tracker",             "https://nyaa.si/",""],
-  ["Shikimori",                "https://shikimori.me/",""],
+  ["Shikimori",                "https://shikimori.one/",""],
   ["AniList",                  "https://anilist.co/",""],
   ["Danbooru",                 "http://danbooru.donmai.us/",""],
   
