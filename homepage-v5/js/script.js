@@ -61,7 +61,7 @@ var linkMenu = [
   ["Reddit",                   "https://www.reddit.com",""],
   ["Twitch",                   "https://twitch.tv/",""],
   ["Pixiv",                    "https://pixiv.net/",""],
-  ["Twitter",                  "https://twitter.com/",""],
+  ["Twitter",                  "https://x.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
   ["/a/ Anime & Manga",        "https://4chan.org/a/",""],
